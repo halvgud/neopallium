@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Neocortex.Properties
+namespace CoreCortex.Properties
 {
 
 

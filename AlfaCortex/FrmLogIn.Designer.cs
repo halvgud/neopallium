@@ -1,6 +1,6 @@
-﻿namespace Neocortex
+﻿namespace AlfaCortex
 {
-    partial class Form1
+    partial class FrmLogIn
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -28,9 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // FrmLogIn
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(403, 242);
+            this.Name = "FrmLogIn";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+
         }
 
         #endregion

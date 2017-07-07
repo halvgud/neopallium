@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neocortex", "Neocortex\Neocortex.csproj", "{2F80CA26-28F3-413C-BDE0-64C3EBD30B70}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreCortex", "CoreCortex\CoreCortex.csproj", "{670C5B7F-B3C1-43CF-BDBA-F90F8C7455C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProisoCortex", "ProisoCortex\ProisoCortex.csproj", "{BC4BFD32-14E0-4F72-A02B-B566CDE25AF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeocortexOld", "NeocortexOld\NeocortexOld.csproj", "{2F80CA26-28F3-413C-BDE0-64C3EBD30B70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlfaCortex", "AlfaCortex\AlfaCortex.csproj", "{428EC5EA-ABB0-465A-A518-CD1603EC0910}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +17,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{670C5B7F-B3C1-43CF-BDBA-F90F8C7455C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{670C5B7F-B3C1-43CF-BDBA-F90F8C7455C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{670C5B7F-B3C1-43CF-BDBA-F90F8C7455C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{670C5B7F-B3C1-43CF-BDBA-F90F8C7455C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC4BFD32-14E0-4F72-A02B-B566CDE25AF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC4BFD32-14E0-4F72-A02B-B566CDE25AF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC4BFD32-14E0-4F72-A02B-B566CDE25AF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC4BFD32-14E0-4F72-A02B-B566CDE25AF8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2F80CA26-28F3-413C-BDE0-64C3EBD30B70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2F80CA26-28F3-413C-BDE0-64C3EBD30B70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F80CA26-28F3-413C-BDE0-64C3EBD30B70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F80CA26-28F3-413C-BDE0-64C3EBD30B70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{428EC5EA-ABB0-465A-A518-CD1603EC0910}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{428EC5EA-ABB0-465A-A518-CD1603EC0910}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{428EC5EA-ABB0-465A-A518-CD1603EC0910}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{428EC5EA-ABB0-465A-A518-CD1603EC0910}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
